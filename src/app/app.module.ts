@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BarChartsComponent } from './bar-charts/bar-charts.component';
 import { LineChartsComponent } from './line-charts/line-charts.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatRippleModule} from "@angular/material/core";
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { LineChartsComponent } from './line-charts/line-charts.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatRippleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,12 @@
+.example-ripple-container {
+  box-shadow: 0 4px 8px rgba(98, 154, 228, 0.589);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+/* .gap-4 {
+    gap: 0.5rem;
+} */
+.example-ripple-container:hover {
+  transform: scale(1.05);
+  color: #0063af2a;
+}
